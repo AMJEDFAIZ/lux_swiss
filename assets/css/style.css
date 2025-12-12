@@ -72,7 +72,11 @@ body {
 	content: "";
 	position: absolute;
 	inset: 0;
+<<<<<<< HEAD
 	background-image: url("../assets/img/logo-copy.jpg"); /* optional */
+=======
+	background-image: url("assets/img/logo-copy.jpg"); /* optional */
+>>>>>>> f1697e1c69368fa669883fbc8d81c76d5996c7a5
 	background-size: cover;
 	background-position: center;
 	opacity: 0.12;
@@ -156,7 +160,11 @@ body {
 .handle {
 	margin-top: 2px;
     font-family: "alqabs-light";
+<<<<<<< HEAD
 	color: var(--white); /* slight orange accent like screenshot */
+=======
+	color:var(--white); /* slight orange accent like screenshot */
+>>>>>>> f1697e1c69368fa669883fbc8d81c76d5996c7a5
 	font-weight: 800;
 }
 
