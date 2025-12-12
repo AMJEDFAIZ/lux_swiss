@@ -65,6 +65,7 @@ body {
 	padding-top: 18px;
 	padding-left: 18px;
 	padding-right: 18px;
+    overflow: hidden;
 }
 
 /* optional background image overlay (keep dark) */
@@ -72,11 +73,12 @@ body {
 	content: "";
 	position: absolute;
 	inset: 0;
-	background-image: url("../assets/img/logo-copy.jpg"); /* optional */
+	background-image: url("../img/logo-copy.jpg"); /* optional */
 	background-size: cover;
 	background-position: center;
 	opacity: 0.12;
 	filter: blur(2px) saturate(0.85);
+    z-index: 3;
 }
 
 /* top small icons */
