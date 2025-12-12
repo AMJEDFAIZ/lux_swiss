@@ -79,7 +79,7 @@ body {
 	content: "";
 	position: absolute;
 	inset: 0;
-	background-image: url("assets/img/logo.jpg"); /* optional */
+	background-image: url("/assets/img/logo-copy.jpg"); /* optional */
 	background-size: cover;
 	background-position: center;
 	opacity: 0.12;
