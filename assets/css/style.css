@@ -1,10 +1,3 @@
-/* styles.css
-   تصميم Link-in-Bio مطابق للـ reference
-   الألوان الأساسية:
-   --green-1: rgb(70,112,36) -> #467024
-   --green-2: rgb(37,59,13)  -> #253B0D
-   خلفية عامة: أبيض
-*/
 
 :root {
 	--green-1: #467024;
@@ -79,7 +72,7 @@ body {
 	content: "";
 	position: absolute;
 	inset: 0;
-	background-image: url("/assets/img/logo-copy.jpg"); /* optional */
+	background-image: url("assets/img/logo-copy.jpg"); /* optional */
 	background-size: cover;
 	background-position: center;
 	opacity: 0.12;
@@ -163,8 +156,8 @@ body {
 .handle {
 	margin-top: 2px;
     font-family: "alqabs-light";
-	color: #ff9d40; /* slight orange accent like screenshot */
-	font-weight: 600;
+	color:var(--white); /* slight orange accent like screenshot */
+	font-weight: 800;
 }
 
 /* social icons row inside hero */
