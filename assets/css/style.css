@@ -13,9 +13,12 @@
 
 @font-face {
     font-family: "alqabs-bold";
-    src: url(../fonts/ArbFONTS-19305-alqabas-bold.ttf);
-    font-family: "alqabs-light";
-    src: url(../fonts/ArbFONTS-19306-alqabas-light.ttf);
+    src: url(../fonts/ArbFONTS-19305-alqabas-bold.ttf)format("truetype");
+    
+}
+@font-face {
+  font-family: "alqabs-light";
+    src: url(../fonts/ArbFONTS-19306-alqabas-light.ttf)format("truetype");
 }
 
 /* Global reset */
